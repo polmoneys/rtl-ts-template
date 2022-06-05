@@ -1,0 +1,16 @@
+{
+  "extends": [
+    "eslint:recommended", // Eslint recommended configuration by eslint.
+    "plugin:import/recommended", // Linting of ES2015+ import/export syntax.
+    "plugin:react/recommended", // Recommended react linting configs.
+    "plugin:react-hooks/recommended", // Recommended react hooks linting configs.
+    "plugin:prettier/recommended"
+  ],
+  "plugins": [
+    "react",
+    "react-hooks",
+    "@typescript-eslint",
+    "import",
+    "simple-import-sort" // Plugin for sorting imports in file.
+  ]
+}
